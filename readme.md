@@ -73,4 +73,5 @@ python manage.py runserver
 ## Автор
 
 Терпугоа Сергей 
+
 https://github.com/SergeyTerpugov
