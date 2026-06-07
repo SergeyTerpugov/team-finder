@@ -75,26 +75,6 @@ python manage.py runserver
 
 Проект доступен по адресу: http://localhost:8000
 
-### 5. Тестовые данные
-```bash
-python manage.py seed_data
-```
-
-Создаёт 3 тестовых пользователя с проектами:
-
-| Email | Пароль |
-|---|---|
-| alice@example.com | testpass123 |
-| bob@example.com | testpass123 |
-| carol@example.com | testpass123 |
-
-### 6. Админка
-```bash
-python manage.py createsuperuser
-```
-
-Админка доступна по адресу: http://localhost:8000/admin/
-
 ## Автор
 
 Терпугоа Сергей 
