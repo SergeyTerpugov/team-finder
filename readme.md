@@ -96,16 +96,27 @@ python manage.py runserver
 
 teamfinder/
 ├── constants/          # Константы и валидаторы
+
 ├── projects/           # Приложение проектов
+
 ├── static/             # Статические файлы (CSS, JS, шрифты)
+
 ├── team_finder/        # Основные настройки Django
+
 ├── templates/          # HTML-шаблоны
+
 ├── users/              # Приложение пользователей
+
 ├── .env_example        # Пример файла с переменными окружения
+
 ├── docker-compose.yml  # Конфигурация Docker
+
 ├── manage.py           # Управление Django
+
 ├── README.md           # Документация
+
 └── requirements.txt    # Зависимости проекта
+
 
 ## Автор
 
