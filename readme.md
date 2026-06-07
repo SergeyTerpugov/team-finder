@@ -120,6 +120,5 @@ teamfinder/
 
 ## Автор
 
-- Имя Фамилия
-- GitHub: https://github.com/your-username
-- Email: your-email@example.com
+- Сергей Терпугов
+- GitHub: https://github.com/SergeyTerpugov
