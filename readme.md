@@ -62,12 +62,7 @@ POSTGRES_PORT=5433
 
 > **Важно:** порт БД — `5433`, а не стандартный `5432`. Это сделано намеренно, так как порт 5432 может быть занят системным PostgreSQL на Windows. В `docker-compose.yml` прописано `127.0.0.1:5433:5432`.
 
-### 3. База данных
-```bash
-docker compose up -d
-```
-
-### 4. Миграции и запуск
+### 3. Миграции и запуск
 ```bash
 python manage.py migrate
 python manage.py runserver
