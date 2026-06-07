@@ -62,13 +62,21 @@ cp .env_example .env
 Заполните .env своими значениями:
 
 DJANGO_SECRET_KEY - Секретный ключ Django. Можно сгенерировать: python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+
 DJANGO_DEBUG - Режим отладки (True или False)
+
 DJANGO_ALLOWED_HOSTS - Разрешённые хосты через запятую (localhost,127.0.0.1)
+
 POSTGRES_DB - Имя базы данных
+
 POSTGRES_USER - Пользователь базы данных
+
 POSTGRES_PASSWORD - Пароль базы данных
+
 POSTGRES_HOST - Хост базы данных (localhost)
+
 POSTGRES_PORT - Порт базы данных (5432)
+
 
 ### 4. Запуск PostgreSQL в Docker
 
